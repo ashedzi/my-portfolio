@@ -96,7 +96,6 @@ body {
     position: relative;
     background: var(--background-color), url(../img/abstract.jpg)center center cover/no-repeat;
 
-
     h2 {
         font-size: 8rem;
         line-height: 1.4;
@@ -210,8 +209,6 @@ body {
 
 
 /* ------- Skill section ------------- */
-
-
 .skill {
     height: 32px;
     width: 32px;
@@ -245,8 +242,6 @@ body {
 }
 
 .marquee-container {
-    
-
     width: 100%;
     --webkit-mask: linear-gradient(var(--mask));
     mask: linear-gradient(var(--mask));
@@ -264,7 +259,6 @@ body {
     from { transform: translateX(0); }
     to { transform: translateX(-50%); }
 }
-
 
 .section-title {
     display: flex;
@@ -357,7 +351,6 @@ section h3 {
     }
 }
 
-
 figure {
     margin: 40px 0 20px 0;
 }
@@ -419,7 +412,6 @@ figure {
     text-align: left;
     line-height: 1.2;
 }
-
 
 .project-box p:nth-of-type(2) {
     font-size: 1.4rem;
@@ -498,9 +490,6 @@ footer {
 
 }
 
-
-
-
 /*992px and down*/
 @media (max-width: 992px) {
     .parent-project-box {
@@ -516,7 +505,6 @@ footer {
         display: none;
     }
 }
-
 
 /*768px and down*/
 @media (max-width: 768px) {
@@ -564,7 +552,6 @@ footer {
     }
 
 }
-
 
 /*480px and down*/
 @media (max-width: 480px) {
